@@ -1,0 +1,59 @@
+.homeBg{
+    display: flex;                  
+    flex-direction: row;           
+    flex-wrap: nowrap;              
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.navigationBar{
+    width: auto;
+    min-width: 220px;
+    height: 100vh;
+    background-color: rgba(106, 0, 107,1);
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: inline-block;
+}
+.homeNav, .tourInfNav, .revStaNav, .logoutNav, .AddTourNav{
+    margin-left: 10px;
+}
+
+i{
+    margin-left: 10px;
+    top: 70px;
+    margin-right: 0;
+    width: 10%;
+}
+.anav{
+    display: block;
+}
+body{
+    margin: 0;
+}
+
+.navShow{
+    display:inline-block;
+    margin-bottom:  6px;
+    margin-top: 4px;
+}
+.selectNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigationBar a{
+    color: white;
+    
+}
+.navShow:hover{
+    text-decoration: underline 3px; 
+    text-underline-offset: 7px;
+    cursor: pointer;
+}
+
+
+
+
+
+

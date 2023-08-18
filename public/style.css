@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-135deg, rgb(200, 80, 192), rgb(65, 88, 208));
+}
+.container{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox{
+    background-color: white;
+    padding: 20px; 
+    border-radius: 10px; 
+    border: 0; 
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    max-width: 600px; /* Giới hạn độ rộng của .loginBox */
+    box-sizing: border-box;
+}
+.username, .password{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    background-color: rgba(149, 0, 186,0.1);
+    border-radius: 10px;
+}
+.loginButton{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgba(147, 0, 184,0.6);
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+}
+.error{
+    color: red;
+    width: 40%;
+    padding: 7px;
+    border-radius: 4px;
+    background-color: rgba(255, 17, 0,0.3);
+    font-weight: 700px;
+    font-family: sans-serif;
+}

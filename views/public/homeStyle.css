@@ -1,0 +1,14 @@
+.mainDisplay{
+    background-color: white;
+    width: 100%;    
+}
+.table{
+    border-radius: 30px;
+    background-color: red;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
